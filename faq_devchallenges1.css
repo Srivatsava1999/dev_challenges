@@ -1,0 +1,80 @@
+/* Global styles applied to all elements */
+*{
+    margin: 10px; /* Adds 10px margin to all elements */
+    padding: 0px; /* Removes padding from all elements */
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width/height */
+    /* border: 1px; */ /* Optional, currently commented out */
+    font-family: "Inter"; /* Sets the font family for the whole page */
+}
+
+/* Body styling */
+body{
+    width: 100%; /* Ensures body occupies the full width of the viewport */
+}
+
+/* Styling for the main heading (h1) */
+h1{
+    color: #030616; /* Sets text color to a dark shade */
+    font-size: 2.25rem; /* Sets font size to 2.25rem */
+    font-weight: 600; /* Makes the font bold */
+}
+
+/* Styling for secondary heading (h2) */
+h2{
+    color: #030616; /* Sets text color */
+    font-size: 1.5rem; /* Sets font size */
+    font-weight: 600; /* Makes the font bold */
+}
+
+/* Styling for paragraph text */
+p{
+    color: #030616; /* Sets text color */
+    font-size: 1rem; /* Sets font size to 1rem */
+    font-size: regular; /* This is redundant, remove this line */
+}
+
+/* Styling for anchor (link) tags */
+a{
+    margin: 0; /* Removes margin from links */
+    padding: 0; /* Removes padding from links */
+    color: #4E80EE; /* Sets link color to a blue shade */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Styling for header section */
+.header{
+    text-align: center; /* Centers the header content */
+    margin-bottom: 8%; /* Creates space between the header and the following content */
+}
+
+/* Styling for content section */
+.content{
+    margin-left: 30%; /* Shifts content towards the center from the left */
+    margin-bottom: 4%; /* Adds space below the content */
+    /* display: inline-block; */ /* Optional, currently commented out */
+}
+
+/* Styling for list items */
+.list_items{
+    margin: 0; /* Removes margin from the list to align with the container */
+    padding: 0; /* Removes padding */
+    list-style-position: inside; /* Positions the list numbers inside the container */
+}
+
+/* Styling for the second heading (id="second") */
+#second{
+    margin: 3% 2%; /* Adds vertical margin to create space above and below this section */
+}
+
+/* Styling for paragraph with id="para" */
+#para{
+    margin: 2% 2%; /* Adds margin to create space around the paragraph */
+}
+
+/* Styling for horizontal rule (hr) */
+hr{
+    height: 2px; /* Sets height of the horizontal line */
+    background-color: #D2D5DA; /* Sets the background color of the line */
+    margin-left: 30%; /* Adds space on the left side of the horizontal line */
+    margin-right: 20%; /* Adds space on the right side of the horizontal line */
+}
