@@ -45,6 +45,7 @@ a{
 .header{
     text-align: center; /* Centers the header content */
     margin-bottom: 8%; /* Creates space between the header and the following content */
+    margin-top: 8%;
 }
 
 /* Styling for content section */
