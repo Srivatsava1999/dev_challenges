@@ -39,7 +39,8 @@ The project focuses on mastering:
 
 html_css_practice/
 |---devchallenges/
-    |---faq_devchallenges1.html
+  |---devchallenges1/
+    |---index.html
     |---faq_devchallenges1.css
 
 
@@ -65,4 +66,4 @@ Styles the HTML elements:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Srivatsava1999/dev_challenges.git
+   git clone https://github.com/Srivatsava1999/dev_challenges/devchallenges1.git

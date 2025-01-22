@@ -1,0 +1,80 @@
+/* Reset margin and padding to 0 for all elements */
+* {
+    margin: 0px; /* Remove default margin */
+    padding: 0px; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: "Sora"; /* Set the font family for the entire page */
+    background-color: #FFFFFF; /* Set background color to white */
+}
+
+/* Center the body content using grid */
+body {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center items both vertically and horizontally */
+    margin-top: 164px; /* Add top margin to the body for spacing */
+}
+
+/* Style for the .card element */
+.card {
+    max-width: 368px; /* Set maximum width of the card */
+    background-color: #FAFAF9; /* Set the background color for the card */
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08); /* Add shadow around the card */
+}
+
+/* Style for images inside the card */
+img {
+    margin-top: 16px; /* Add space at the top of the image */
+    margin-bottom: 8px; /* Add space at the bottom of the image */
+    margin-left: 16px; /* Add space to the left of the image */
+    margin-right: 16px; /* Add space to the right of the image */
+    max-width: 336px; /* Limit the image's width */
+    border-radius: 16px; /* Rounded corners for the image */
+    max-height: 152px; /* Limit the image's height */
+    /* box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08); */
+}
+
+/* Style for the #tag element */
+#tag {
+    max-width: 336px; /* Set the maximum width */
+    margin-top: 8px; /* Add space at the top */
+    margin-left: 16px; /* Add space to the left */
+    margin-bottom: 8px; /* Add space at the bottom */
+    padding: 6px 16px; /* Add padding to the tag */
+    font-size: 10px; /* Set font size */
+    color: #7C19EE; /* Set text color */
+    font-weight: 600; /* Set font weight to bold */
+}
+
+/* Style for h1 headings */
+h1 {
+    margin-top: 8px; /* Add space at the top */
+    margin-bottom: 6px; /* Add space at the bottom */
+    max-width: 336px; /* Set the maximum width of the heading */
+    margin-left: 16px; /* Add space to the left */
+    font-size: 18px; /* Set font size for the heading */
+    font-weight: 700; /* Set font weight to bold */
+    color: #20293A; /* Set text color */
+}
+
+/* Style for the main content text */
+#body {
+    margin-top: 6px; /* Add space at the top */
+    margin-bottom: 20px; /* Add space at the bottom */
+    max-width: 336px; /* Set the maximum width */
+    margin-left: 16px; /* Add space to the left */
+    font-size: 14px; /* Set font size */
+    color: #394150; /* Set text color */
+    font-weight: 200; /* Set font weight to light */
+    box-shadow: 0px 8px 20px 0px rgba(85, 85, 85, 0.08); /* Add shadow around the content */
+}
+
+/* Style for small text sections */
+#small_text {
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 20px; /* Add space at the bottom */
+    max-width: 336px; /* Set the maximum width */
+    margin-left: 16px; /* Add space to the left */
+    font-size: 12px; /* Set font size */
+    color: #394150; /* Set text color */
+    font-weight: 300; /* Set font weight to light */
+}
