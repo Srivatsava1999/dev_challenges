@@ -1,0 +1,109 @@
+/* Global styles for all elements */
+* {
+    margin: 0px; /* Reset default margin */
+    padding: 0px; /* Reset default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+    /* border: 1px solid black; */ /* Uncomment for debugging layout */
+    font-family: "poppins"; /* Set global font family */
+    background-color: #FFFFFF; /* Set a default background color */
+}
+
+/* Styling for the body element */
+body {
+    display: grid; /* Use grid layout to center content */
+    place-items: center; /* Center content horizontally and vertically */
+    margin-top: 164px; /* Add spacing from the top */
+}
+
+/* Styling for the form container */
+form {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center the form content */
+}
+
+/* Styling for the logo section */
+.logo {
+    align-items: center; /* Center logo content vertically */
+    margin-bottom: 16px; /* Add space below the logo */
+}
+
+/* Styling for the heading section */
+.heading {
+    font-size: 48px; /* Large font size for the main heading */
+    font-weight: 600; /* Semi-bold font weight */
+    color: #000000; /* Black text color */
+    margin-bottom: 16px; /* Add spacing below the heading */
+}
+
+/* Styling for the content section (subheading) */
+.content {
+    width: 750px; /* Fixed width for consistent layout */
+    text-align: center; /* Center-align the text */
+    font-size: 20px; /* Font size for readability */
+    font-weight: 400; /* Normal font weight */
+    color: #6C727F; /* Gray text color for secondary content */
+    margin-bottom: 48px; /* Add spacing below the content */
+}
+
+/* Styling for the join card (form container) */
+.joincard {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center content inside the card */
+    width: 525px; /* Fixed width for the card */
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+    border-radius: 16px; /* Rounded corners for the card */
+}
+
+/* Styling for the email input section */
+.email {
+    margin-top: 16px; /* Add spacing above the input */
+    margin-bottom: 16px; /* Add spacing below the input */
+    width: 470px; /* Fixed width for the input container */
+    /* display: grid;
+    place-items: center; */ /* Uncomment for alternative alignment */
+}
+
+/* Styling for the email input field */
+#email {
+    background-color: #F9FAFB; /* Light background color for input */
+    font-weight: 500; /* Medium font weight */
+    font-size: 16px; /* Font size for readability */
+    padding: 16px; /* Padding inside the input */
+    width: 100%; /* Take full width of the container */
+    border-radius: 8px; /* Rounded corners */
+    border-color: #E5E7EB; /* Light gray border color */
+    border-width: 1px; /* Thin border width */
+    outline: none; /* Remove the default focus outline */
+    text-align: center; /* Center-align placeholder text */
+    color: #394150; /* Dark text color */
+    box-shadow: none; /* Remove any default shadow */
+}
+
+/* Styling for the submit button */
+#submitbutton {
+    background-color: #284BCE; /* Blue background color */
+    color: #F9FAFB; /* White text color */
+    padding: 16px; /* Add padding inside the button */
+    font-size: 16px; /* Font size for readability */
+    font-weight: 600; /* Semi-bold font weight */
+    width: 470px; /* Fixed width for consistency */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 8px; /* Add spacing above the button */
+    margin-bottom: 16px; /* Add spacing below the button */
+    outline: none; /* Remove default focus outline */
+    box-shadow: none; /* Remove default shadow */
+    border-width: 0px; /* Remove border */
+}
+
+/* Styling for the helper text (privacy note) */
+#helper {
+    border-radius: 8px; /* Rounded corners for consistency */
+    margin-left: 16px; /* Add spacing on the left */
+    margin-right: 16px; /* Add spacing on the right */
+    font-size: 14px; /* Small font size for subtle content */
+    font-weight: 400; /* Normal font weight */
+    color: #6C727F; /* Gray text color */
+    margin-bottom: 16px; /* Add spacing below the helper text */
+}
+
+
