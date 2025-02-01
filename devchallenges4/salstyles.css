@@ -1,0 +1,283 @@
+/* ===========================
+   Global Styles
+   ===========================*/
+
+/* Reset default margins and paddings, set box-sizing,
+   background color, and base font-size for all elements */
+   * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Uncomment the line below to visualize element boundaries during development */
+    /* border: 1px solid black; */
+    background-color: #F8FAFC;
+    font-size: 16px;
+}
+
+/* ===========================
+   Typography Styles
+   ===========================*/
+
+/* Style for main heading (h1) */
+h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #000000;
+}
+
+/* Style for secondary headings (h2) */
+h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #000000;
+}
+
+/* Style for paragraph text (p) */
+p {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #4D5562;
+}
+
+/* ===========================
+   Header and Decorative Elements
+   ===========================*/
+
+/* Style for the separator image in the header */
+#Seperator {
+    fill: #D9D9D9;
+    width: 25%;
+    height: auto;
+}
+
+/* ===========================
+   Layout Containers
+   ===========================*/
+
+/* Style for the body element to center content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Header container style */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Main content container style */
+.content {
+    display: flex;
+    flex-direction: column;
+    /* Note: 'justify-content: center space-evenly;' appears to be a typo.
+       It might need to be either 'justify-content: center;' or 'justify-content: space-evenly;' */
+    justify-content: center space-evenly;
+    align-items: center;
+}
+
+/* ===========================
+   Article Sections
+   ===========================*/
+
+/* Each article is displayed as a row */
+.article1,
+.article2,
+.article3 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ===========================
+   Image Styles
+   ===========================*/
+
+/* Style for article images with rounded corners and margin */
+.image1,
+.image2,
+.image3 {
+    border-radius: 1rem;
+    margin: 2%;
+}
+
+/* ===========================
+   Text Blocks within Articles
+   ===========================*/
+
+/* Margin for text blocks in articles */
+.text1,
+.text2,
+.text3 {
+    margin: 4%;
+}
+
+/* ===========================
+   Responsive Styles: Mobile (max-device-width: 500px)
+   ===========================*/
+
+@media screen and (max-device-width: 500px) {
+    /* Adjust typography for mobile devices */
+    h1 {
+        font-size: clamp(2.25rem, 2.75rem, 3rem);
+        margin: 5%;
+    }
+    h2 {
+        font-size: clamp(1.25rem, 1.5rem, 2rem);
+        margin: 5%;
+    }
+    p {
+        font-size: clamp(0.875rem, 1.25rem, 1.5rem);
+        margin: 5%;
+    }
+    
+    /* Adjust separator image margins */
+    #Seperator {
+        margin: 5%;
+        margin-bottom: 15%;
+    }
+    
+    /* Header size adjustments */
+    header {
+        width: auto;
+        height: 30%;
+    }
+    
+    /* Content container adjustments */
+    .content {
+        width: auto;
+        height: 95%;
+        margin: 8%;
+        margin-top: 8%;
+    }
+    
+    /* Spacing adjustments for each article */
+    .article1,
+    .article2,
+    .article3 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15%;
+    }
+    
+    /* Resize article images */
+    .image1,
+    .image2,
+    .image3 {
+        width: 60%;
+        height: auto;
+    }
+    
+    /* Specific text block width adjustment */
+    .text3 {
+        width: 90%;
+    }
+}
+
+/* ===========================
+   Responsive Styles: Tablets and Small Desktops (min-device-width: 501px)
+   ===========================*/
+
+@media screen and (min-device-width: 501px) {
+    h1 {
+        font-size: clamp(32px, 2.25rem, 38px);
+        margin: 5%;
+    }
+    h2 {
+        font-size: clamp(18px, 1.25rem, 24px);
+        margin: 2.5%;
+    }
+    p {
+        font-size: clamp(10px, 0.875rem, 16px);
+        margin: 2.5%;
+    }
+    
+    /* Separator margin adjustment */
+    #Seperator {
+        margin-bottom: 2%;
+    }
+    
+    /* Header and content sizing */
+    header {
+        width: auto;
+        height: 20%;
+    }
+    .content {
+        width: 95%;
+        height: 70%;
+        margin: 2.5%;
+    }
+    
+    /* Ensure articles take full width */
+    .article1,
+    .article2,
+    .article3 {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Resize article images */
+    .image1,
+    .image2,
+    .image3 {
+        width: 30%;
+        height: auto;
+    }
+    
+    /* Adjust text block width for article 3 */
+    .text3 {
+        width: 72%;
+    }
+}
+
+/* ===========================
+   Responsive Styles: Desktops and Larger Devices (min-device-width: 1030px)
+   ===========================*/
+
+@media screen and (min-device-width: 1030px) {
+    h1 {
+        font-size: clamp(30px, 1.8rem, 36px);
+        margin: 2.5%;
+    }
+    h2 {
+        font-size: clamp(15px, 1.15rem, 20px);
+        margin: 2.5%;
+    }
+    p {
+        font-size: clamp(10px, 0.875rem, 15px);
+        margin: 2.5%;
+    }
+    
+    /* Separator margin adjustment */
+    #Seperator {
+        margin-bottom: 2%;
+    }
+    
+    /* Adjust header and content widths */
+    header {
+        width: 65%;
+    }
+    .content {
+        width: 75%;
+        height: auto;
+    }
+    
+    /* Resize article images */
+    .image1,
+    .image2,
+    .image3 {
+        width: 20%;
+        height: auto;
+    }
+    
+    /* Adjust text block width for article 3 */
+    .text3 {
+        width: 79%;
+    }
+}
