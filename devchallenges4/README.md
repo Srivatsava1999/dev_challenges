@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://simple-article-listing.netlify.app" target="_blank">
+    <a href="https://saldv4.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -66,7 +66,7 @@ This project is a solution to the Simple Article Listing challenge from devChall
 
 ## Contact
 
-- Website: [your-website.com](https://simple-article-listing.netlify.app)
+- Website: [your-website.com](https://saldv4.netlify.app/)
 - GitHub: [@your-username](https://github.com/Srivatsava1999/sri_practice/)
 
 ## Acknowledgements
